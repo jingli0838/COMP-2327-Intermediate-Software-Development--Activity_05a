@@ -23,7 +23,14 @@ class League:
 
     @property
     def name(self):
-        """To Do:  Document this method."""
+        """
+        Get the name attribute of the instance.
+
+        This property provides read-only access to the private `__name` attribute.
+
+        Returns:
+            str: The value of the `__name` attribute.
+        """
         return self.__name
 
     @property
